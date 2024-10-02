@@ -3,10 +3,9 @@ import './index.css';
 
 function Index() {
   return (
-    <div className='Home-Container'>
-      
+    <div className='QR-Container'>
     </div>
   );
-};
+}
 
 export default Index;

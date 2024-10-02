@@ -1,8 +1,7 @@
-.QR-Container {
+.Home-Container {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #131314;
-  color: white;
-  height: 82vh;
+  background-color: var(--bg-color);
+  height: var(--height);
 }

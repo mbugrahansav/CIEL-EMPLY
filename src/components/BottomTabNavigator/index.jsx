@@ -4,7 +4,7 @@ import './index.css';
 import menuIcon from './menu-icon.png';
 import homeIcon from './home-icon.png';
 import settingsIcon from './settings-icon.png';
-import qrIcon from './qr-icon.png';
+import scanIcon from './scan-icon.png';
 
 function Index() {
   const navigate = useNavigate();
@@ -45,7 +45,7 @@ function Index() {
             {/* Arka Yüz (QR İcon) */}
             <div className='back'>
               <button id='Button-2' onClick={goToQrPage}>
-                <img src={qrIcon} id='qr-icon' alt='qr-icon'/>
+                <img src={scanIcon} id='scan-icon' alt='scan-icon'/>
               </button>
             </div>
           </div>
